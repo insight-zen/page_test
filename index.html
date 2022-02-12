@@ -1,6 +1,6 @@
 <head>
   <meta name="title" content="Page Site Title">
-  <link type="text/css" href="test.css">
+  <link type="text/css" href="/test.css">
   <script src="test.js"></script>
 </head>
 <body>
@@ -9,4 +9,14 @@
   <p class="red">I am red if stylesheet is loaded</p>
   
 <p>I am index.html</p>
+
+  <button id="btn">I am a test button</button>
+  
+<script>
+    let btn = document.getElementById('btn');
+    btn.addEventListener('click', (e) => {
+        console.log('clicked');
+    });
+</script>  
+
 </body>
